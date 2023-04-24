@@ -306,7 +306,6 @@ public class ArregloActividad1 {
         mostrarVentas(ventas,n);
         
         //Arreglo de Venta punto 5 (A,B,C,D,E,F,G,H,I,J):
-        
         Object[][] lenguajes = new Object[8][5];
         lenguajes[0] = new Object[]{"NOMBRE", "AÑO", "AUTOR", "DETALLES", "FRAMEWORKS"};
         infoLenguajes(lenguajes);
@@ -399,24 +398,28 @@ public class ArregloActividad1 {
         return ventaMasCercana;
     }
     
+    //Es para mostrar los arreglos que retornas las funciones
     public static void mostrarVentas(int [] ventas, int n){
         for (int i = 0; i < n; i++) {
             System.out.println(ventas[i]);
         }
     }
     
+    //Es para mostrar los arreglos que retornas las funciones
     public static void mostrar(Object [] lenguaje){
         for (int i = 0; i < lenguaje.length; i++) {
             System.out.println(lenguaje[i]);
         }
     }
     
+    //Es para mostrar los arreglos que retornas las funciones
     public static void mostrarPosicion(int [] lenguaje){
         for (int i = 0; i < lenguaje.length; i++) {
             System.out.print("["+lenguaje[i]+"]");
         }
     }
     
+    //Es para mostrar los arreglos que retornas las funciones
     public static void mostrarObjeto(Object [] lenguaje){
         for (int i = 0; i < lenguaje.length; i++) {
             
@@ -515,6 +518,7 @@ public class ArregloActividad1 {
         return false;
     }
     
+    //Buscar las cordenas arrojadas en una arreglo
     public static int[] buscarLenguajeCoordenadas(Object[][] lenguajes, String nombreLenguaje) {
         int[] coordenadas = new int[2];
         for (int i = 1; i < lenguajes.length; i++) {
