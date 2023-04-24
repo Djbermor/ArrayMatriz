@@ -566,7 +566,7 @@ public class ArregloActividad1 {
         }
         return null;
     }
-    
+    // metodo
     public static void infoLenguajes(Object[][] lenguajes, boolean[] info) {
         for (int i = 0; i < lenguajes.length; i++) {
             for (int j = 0; j < info.length; j++) {
